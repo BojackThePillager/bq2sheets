@@ -1,0 +1,7 @@
+pip install google-cloud-bigquery gspread oauth2client
+
+service_account_key: The file path to your service account key JSON file.
+project_id: Your GCP project ID.
+dataset_id: The ID of the BigQuery dataset containing the table you want to query.
+table_id: The ID of the BigQuery table you want to query.
+output_file: The file path where you want to save the CSV file.
